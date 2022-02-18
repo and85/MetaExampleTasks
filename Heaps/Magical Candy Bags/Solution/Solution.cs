@@ -9,7 +9,7 @@ public class MagicalCandyBags
     }
 
     public static int maxCandies(int[] arr, int k)
-    {
+    {        
         var queue = new PriorityQueue<int, int>(new ReverseComparer());
         for (int i = 0; i < arr.Length; i++)
         {
